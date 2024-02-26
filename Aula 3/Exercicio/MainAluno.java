@@ -18,8 +18,18 @@ public class MainAluno {
         a.nota3 = sc.nextDouble();
         double media = (a.nota1 + a.nota2 + a.nota3)/3;
 
-        System.out.print("Su nome é  " + a.nome + " Sua média é " + media);
+        System.out.print("Su nome é  " + a.nome + " Sua média é ." + media);
+
+        if (media >= 7){
+            System.out.print(" Parabéns, você passou de ano!");
+        } else { 
+            System.out.print(" Você é burro, ficou na final");
+        } 
+
     }
 }
+
+
+
 
 
