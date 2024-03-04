@@ -1,16 +1,14 @@
-public class Funcionario {
-    private double valorHora, salario;
-    private int horasTrabalhadas;
+import java.util.Scanner;
 
-    public void setValorHora (double valorHora) {this.valorHora = valorHora;}
-    public void setHorasTrabalhadas(int horasTrabalhadas) { this.horasTrabalhadas = horasTrabalhadas;}
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Funcionario f = new Funcionario();
 
-    public double getValorHora() {return valorHora; }
-
-    public int getHorasTrabalhadas() {return horasTrabalhadas;}
-
-    public void calcularSalario(){
-        salario = valorHora * horasTrabalhadas;
-        System.out.println(" O salário do funcionário é : R$" + salario);
+        System.out.print("Digite a quantidade de horas trabalhadas: ");
+        f.setHorasTrabalhadas(sc.nextInt());
+        System.out.print("Digite o valor da hora trabalhada: R$");
+        f.setValorHora(sc.nextDouble());
+        f.calcularSalario();
     }
 }
