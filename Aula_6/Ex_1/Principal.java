@@ -5,7 +5,7 @@ public class Principal {
     public static void main(String[] args){
 
         Carro c = new Carro ("Chevrolet", "Ônix", 2022); //
-        Carro c1 = new Carro();
+        Carro c1 = new Carro(); // Isso foi um exemplo, mas não deve se fazer um vazio por enquanto
         Carro c2 = new Carro("Fiat", "Uno", 2002);
         
         Scanner sc = new Scanner(System.in); //Scanner
