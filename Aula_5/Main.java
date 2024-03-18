@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
-        Scanner sc = new Scanner(System.in); // Scanner
+        Scanner sc = new Scanner(System.in); //Scanner 
         Aluno al = new Aluno(); // Variavel aluno
         Professor pr = new Professor();  // Variavel professor
 
