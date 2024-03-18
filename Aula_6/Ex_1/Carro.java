@@ -1,5 +1,4 @@
-package Aula_6;
-
+package Aula_6.Ex_1;
 
 public class Carro {
 
@@ -50,6 +49,5 @@ public Carro(String marca, String modelo){ // Definindo construtor com 2 def
     this.modelo = modelo;
     }
 }
-
-
+    
 

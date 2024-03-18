@@ -1,5 +1,4 @@
-package Aula_6;
-
+package Aula_6.Ex_1;
 import java.util.Scanner;
 
 public class Principal {
