@@ -1,10 +1,10 @@
-package Aula_6.Ex_2;
+//package Aula_6.Ex_2;
 
-public class Animal {
+//public class Animal {
 
-    private String especie;
-    private String caraceteristica;
-    private String descricao;
+    //private String especie;
+    //private String caraceteristica;
+    //private String descricao;
 
-public class Leao extends Animal'''''
-}
+//public class Leao extends Animal'''''
+//}
