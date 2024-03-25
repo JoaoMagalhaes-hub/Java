@@ -8,15 +8,7 @@ public class Main {
         Carro c1 = new Carro ("Chevrolet", "Cobalt", 2011); // Isso foi um exemplo, mas não deve se fazer um vazio por enquanto
         Carro c2 = new Carro("Fiat", "Uno", 2002);
         Carro c3 = new Carro("Gurgel", "X12", 1976);
-
-        Scanner sc = new Scanner(System.in); //Scanner
-
-        String procurar_carro;
         
-        System.out.println(" Imprimindo o primeiro modelo de carro! Digite 1, 2 ou 3!");
-        procurar_carro = sc.nextLine();
-
-
         System.out.println(c.getMarca()); //Método get para tirar da classe Carro e levar para a Classe principal
         System.out.println(c.getModelo());
         System.out.println(c.getAno());
