@@ -1,24 +1,26 @@
-package Nota_de_Aula_4.Questao_4;
+package Z;
 
 public class Animal {
-    private String Classe, Locomocao;
+    String classe;
+    String locomocao;
 
-    public String getClasse() {
-        return this.Classe;
+    public Animal(String classe, String especie){
+        this.classe = classe;
+        this.locomocao = especie;
+    }
+}
+
+ class Leao extends Animal {
+     private String pelo;
+
+    public Leao(String classe, String locomocao, String pelo) {
+        super(classe, locomocao);
+        this.pelo = pelo;
     }
 
-    public void setClasse(String Classe) {
-        this.Classe = Classe;
+    public void exibirInformacoes() {
+        System.out.println("Classe: " + classe);
+        System.out.println("Locomoção: " + locomocao);
+        System.out.println("Pelo: " + pelo);
     }
-
-    public String getLocomocao() {
-        return this.Locomocao;
-    }
-
-    public void setLocomocao(String Locomocao) {
-        this.Locomocao = Locomocao;
-    }
-
-    }
-
-    //Construtor
+}

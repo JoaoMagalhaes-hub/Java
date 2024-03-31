@@ -1,52 +1,31 @@
-public class Produto {
-    private String nome;
-    private double preco;
-    private String descricao;
-
-    public Produto(String nome, double preco, String descricao) {
-        this.nome = nome;
-        this.preco = preco;
-        this.descricao = descricao;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public double getPreco() {
-        return preco;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public void setPreco(double preco) {
-        this.preco = preco;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public void mostrarInformacoes() {
-        System.out.println("Nome do Produto: " + nome);
-        System.out.println("Preço do Produto: R$" + preco);
-        System.out.println("Descrição do Produto: " + descricao);
-    }
-
+package z;
+import java.util.Scanner;
+public class Main {
     public static void main(String[] args) {
-        Produto produto1 = new Produto("Camisa", 49.99, "Camisa azul");
-        Produto produto2 = new Produto("Calça", 99.99, "Calça jeans cinza");
+        Scanner sc = new Scanner(System.in);
+        produto produto1 = new produto("Calça", 49.99, "Calça polo azul");
+        produto produto2 = new produto("Camisa", 99.99, "Camisa Social Preta");
 
-        System.out.println("Informações do Produto 1:");
-        produto1.mostrarInformacoes();
 
-        System.out.println("\nInformações do Produto 2:");
-        produto2.mostrarInformacoes();
+        System.out.println("Escolha o produto: ");
+        System.out.println("1 - Calça polo / 2 - Camisa Social / e nada pra retornar a loja");
+        int x = sc.nextInt();
+        switch (x) {
+            case 1:
+                System.out.println("Informações do Produto: ");
+                System.out.println("Produto: " + produto1.roupa);
+                System.out.println("Preço: " + produto1.preco);
+                System.out.println("Modelo:  " + produto1.Cor);
+                break;
+            case 2:
+                System.out.println("Informações do Produto: ");
+                System.out.println("Produto: " + produto2.roupa);
+                System.out.println("Preço: " + produto2.preco);
+                System.out.println("Modelo:  " + produto2.Cor);
+                break;
+            default:
+                System.out.println("Opção inválida. Por favor, escolha novamente.");
+                break;
+        }
     }
 }
