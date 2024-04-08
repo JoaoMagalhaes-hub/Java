@@ -1,42 +1,33 @@
 package questao_3;
 
-
-import java.util.Scanner; 
-
-public class Main {
+public class Calculadora { 
     
-    public static void main(String[] args) {
-        
-    Aluno a = new Aluno(); 
-    Scanner sc = new Scanner(System.in);
+    int total; 
 
-    System.out.print("Digite o nome do aluno: "); 
-    a.nome = sc.next(); 
+    public int somar(int n1, int n2){ 
 
-    System.out.print("Digite a 1° Nota: "); 
-    a.nota_1 = sc.nextDouble(); 
-
-    System.out.print("Digite a 2° Nota: "); 
-    a.nota_2 = sc.nextDouble(); 
-
-    System.out.print("Digite a 3° Nota: "); 
-    a.nota_3 = sc.nextDouble(); 
-
-    a.calcular_media(); 
-
-    System.out.println("A media de "+a.nome+" foi de: "+a.media); 
-
-    if (a.media >= 7) { 
-
-        System.out.println("Aluno aprovado"); 
+        total = n1 + n2;
+        return total;
 
     }
 
-    else { // Senão:
+    public int subtracao(int n1, int n2) { 
 
-        System.out.println("Aluno reprovado");
+        total = n1 - n2;
+        return total;
 
     }
+
+    public int multiplicacao(int n1, int n2) { 
+
+        total = n1 * n2;
+        return total;
+
+    }
+
+    public int divisao(int n1, int n2) { 
+        total = n1 / n2;
+        return total;
 
     }
 
