@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        produto produto1 = new produto("Calça", 49.99, "Calça polo azul");
-        produto produto2 = new produto("Camisa", 99.99, "Camisa Social Preta");
+        Produto produto1 = new Produto("Calça", 49.99, "Calça polo azul");
+        Produto produto2 = new Produto("Camisa", 99.99, "Camisa Social Preta");
 
 
         System.out.println("Escolha o produto: ");
