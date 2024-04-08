@@ -1,6 +1,6 @@
 package questao_1;
 
-public class Funcionarios { 
+public class Funcionario { 
     
     int matricula; 
     String nome; 
