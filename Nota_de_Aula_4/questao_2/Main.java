@@ -1,4 +1,4 @@
-package z;
+package Nota_de_Aula_4.questao_2;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {

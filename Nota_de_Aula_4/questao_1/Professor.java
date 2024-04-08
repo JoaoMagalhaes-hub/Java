@@ -1,4 +1,4 @@
-package Z;
+package Nota_de_Aula_4.questao_1;
 public class Professor {
     protected String nome;
     protected int idade;
