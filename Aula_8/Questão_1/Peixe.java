@@ -20,5 +20,9 @@ public class Peixe extends Animal implements Nadar {
 
     }
 
+    public void emitirComer(){
+
+        System.out.println(" Estou comendo!");
+    }
 }
 

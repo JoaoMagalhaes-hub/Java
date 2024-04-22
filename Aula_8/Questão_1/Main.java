@@ -21,7 +21,7 @@ public class Main {
             p.Voou();
             System.out.print("Animal: Sapo, Nome: " + s.nome + " , Idade: " + s.idade + " , Status: ");
             s.Correr();
-            System.out.print("Animal: Pássaro, Nome: " + pe.nome + " , Idade: " + pe.idade + " , Status: ");
+            System.out.print("Animal: Pássaro, Nome: " + pe.nome + " , Idade: " + pe.idade + " , Status: ");    
             pe.Nadou();
 
     }

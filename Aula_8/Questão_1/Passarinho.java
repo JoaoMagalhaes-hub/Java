@@ -21,4 +21,9 @@ public class Passarinho extends Animal implements Voar {
 
     }
 
+    public void emitirComer(){
+
+        System.out.println(" Estou comendo!");
+    }
 }
+

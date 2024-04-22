@@ -36,5 +36,6 @@ public abstract class Animal { //! Cria a classe abstrata Animal
         }
 
     public abstract void emitirSom(); //* Cria função 'emitirSom'
+    public abstract void emitirComer();
 
 }

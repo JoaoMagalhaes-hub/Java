@@ -20,5 +20,11 @@ public class Lagatixa extends Animal implements Corrida {
         System.out.println("Estou correndo rápido rápido rápido");
 
     }
+
+    public void emitirComer(){
+
+        System.out.println(" Estou comendo!");
+    }
+
 }
 

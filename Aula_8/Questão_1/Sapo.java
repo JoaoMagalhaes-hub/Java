@@ -23,8 +23,12 @@ public class Sapo extends Animal implements Corrida , Nadar {
 
     public void Nadou() { 
 
-    System.out.println("Estou nadando rápido");
+        System.out.println("Estou nadando rápido");
 
-}
+    }
 
+    public void emitirComer(){
+        
+        System.out.println(" Estou comendo!");
+    }
 }

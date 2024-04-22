@@ -21,4 +21,9 @@ public class Gato extends Animal implements Corrida {
 
     }
 
+    public void  emitirComer(){
+
+        System.out.println(" Estou comendo!");
+    }
 }
+
