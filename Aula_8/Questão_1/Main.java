@@ -49,6 +49,36 @@ public class Main {
             a5.emitirComer();
             ((Peixe)a5).Nadou();
 
+            Cachorro c1 = new Cachorro("Billy", 13, TipoAnimal.MAMIFERO);
+            Transformacao t = new Transformacao();
+
+            t.praticarCorrida(c1);
+            t.fazerComer(a1);
+
+            Gato c2 = new Gato("Mila", 8,  TipoAnimal.MAMIFERO);
+            
+            t.praticarCorrida(c2);
+            t.fazerComer(a2);
+
+            Passarinho c3 = new Passarinho ("Adamastor", 10, TipoAnimal.AVE);
+            
+            t.praticarVoo(c3);
+            t.fazerComer(a3);
+
+            Sapo c4 = new Sapo("Crazy frog", 97, TipoAnimal.ANFIBIO);
+
+            t.praticarCorrida(c4);
+            t.praticarNatacao(c4);
+            t.fazerComer(a4);
+
+            Peixe c5 = new Peixe("Pexe", 200, TipoAnimal.PEIXE);
+
+            t.praticarNatacao(c5);
+            t.fazerComer(a5);
+
+
+            
+
     }
 
 }
